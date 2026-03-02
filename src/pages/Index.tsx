@@ -66,12 +66,12 @@ const HeroSection = () => {
       <div className="relative z-10 w-full max-w-[1400px] mx-auto flex flex-col justify-center items-center h-full min-h-[40vh] md:min-h-[50vh]">
 
         {/* Main Headline */}
-        <div className="max-w-full md:max-w-[680px] text-center pt-12 md:pt-0">
+        <div className="max-w-full md:max-w-[680px] text-center md:text-right pt-12 md:pt-0 md:absolute md:top-0 md:right-0">
           <motion.h1
             variants={container}
             initial="hidden"
             animate="visible"
-            className="font-cinzel-decorative text-[10vw] sm:text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.1] mb-4 md:mb-12 shadow-[#000000] drop-shadow-lg flex flex-wrap justify-center"
+            className="font-cinzel-decorative text-[10vw] sm:text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.1] mb-4 md:mb-12 shadow-[#000000] drop-shadow-lg flex flex-wrap justify-center md:justify-end"
           >
             {"TRADITIONAL AGENCIES ARE DEAD.".split(" ").map((word, i) => (
               <motion.span
